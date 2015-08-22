@@ -1,0 +1,148 @@
+<meta
+name="viewport"
+content="width=device-­‐width">
+/* default CSS for small screen/mobile first
+*/
+
+body
+	{
+		width:100%;
+		font-size:100%;
+		line­-height:1.5;
+		background-image:url(images/texture.jpg);
+	}
+
+div.wrapper
+	{
+		width:90%;
+		margin:0
+		auto;
+	}
+
+header
+	{
+		width:100%;
+		line-height:2.4em;
+	}
+
+nav
+	{
+		width:100%;
+		border:2px solid #000;
+		border-radius:10px;
+	}
+
+nav a
+	{
+		display:block;
+		text-align:center;
+		font-size:1.4em;
+		line-height:2em;
+		border-­bottom:1px solid #000;
+		background-color: #93430D;
+	}
+
+nav a:link, nav a:visited {
+
+	text-decoration:none;
+	color:#fffffc;
+	}
+
+article p
+	{
+		font­-size:1em;
+		line-height:1.2em;
+		margin-bottom:1em;
+	}
+
+aside img {
+	display:block;
+	margin:auto;
+	}
+
+footer 
+	{
+	font-size:0.7em;
+	text-align:center;
+	margin:1em;
+	}
+
+h1,h2
+	{
+	width:100%;
+	margin:auto;
+	font-size:1.5em;
+	line-height:2em;
+	text-align:center;
+	color:#234860;
+	}
+
+h2
+	{
+	font-­size:1.25em;
+	}
+
+@media (min-width:980px) {
+	/*for all displays above 980 pixel width*/
+
+header
+	{
+	background-image:url(images/headerbg.png);
+	background-repeat:no-repeat;
+	height:120px;
+	}
+
+h1
+	{
+	font-size:3em;
+	line-height:120px;
+	}
+
+h2
+	{
+	font-size:2.4em;
+	}
+
+nav {
+	width:60%;
+	background-color:#93430D;
+	margin:auto;
+	}
+
+nav a
+	{
+	width:33%;
+	display:inline-block;
+	}
+
+nav a:link, nav a:visited
+	{
+	text-decoration:none;
+	color:#fffffc;
+	}
+
+article
+	{
+	width:60%;
+	float:left;
+	}
+
+article p
+	{
+	font-size:1.2em;
+	line-height:1.4em;
+	margin-bottom:1em;
+	}
+
+aside
+	{
+	width:40%;
+	float:left;
+	padding-top:100px;
+	}
+
+footer
+	{
+	clear:both;
+	}
+}
